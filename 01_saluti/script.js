@@ -5,7 +5,7 @@ const userName = prompt("Inserisci il tuo nome");
 
 // Dichiara la funzione qui.
 
-const logGreeting = nome => {
+const getGreeting = nome => {
     let message = `Ciao ${nome}`;
     return message;
 }
@@ -13,7 +13,7 @@ const logGreeting = nome => {
 
 // Invoca la funzione qui e stampa il risultato in console
 
-console.log(logGreeting(userName));
+console.log(getGreeting(userName));
 
 
 //Risultato atteso se si passa 'Mario': // ciao Mario
